@@ -77,6 +77,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 
 ## Related
 
+- [claude-seo-kit](https://github.com/FreeAutomation-Tech/claude-seo-kit) — Claude SEO Skills + Python engine (audits, schema, sitemap, hreflang, GEO)
 - [agent-memory-kit](https://github.com/FreeAutomation-Tech/agent-memory-kit) — Memory patterns for AI agents
 - [agent-security-kit](https://github.com/FreeAutomation-Tech/agent-security-kit) — Security patterns for AI agents
 - [claude-prompt-kit](https://github.com/FreeAutomation-Tech/claude-prompt-kit) — Prompt engineering patterns
