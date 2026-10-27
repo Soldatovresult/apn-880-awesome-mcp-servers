@@ -43,6 +43,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 
 | Server | Description | Tools | Config |
 |--------|-------------|-------|--------|
+| [Agent Payment Node](servers/community/agent-payment-node.md) | Local x402 payment tools; Apple Silicon macOS and Node 24 only | Offer inspection, bounded preparation, status/receipts | `brew install nuanu-ai/tap/apn`; launch `apn mcp serve` |
 | [Memory](servers/community/memory.md) | Persistent key-value memory across sessions | `store_memory`, `recall_memory`, `search_memories` | `npx -y @modelcontextprotocol/server-memory` |
 | [SQLite](servers/community/sqlite.md) | SQLite database query and management | `query`, `execute`, `list_tables` | `npx -y @modelcontextprotocol/server-sqlite /path/to/db` |
 | [PostgreSQL](servers/community/postgres.md) | PostgreSQL database access | `query`, `execute`, `describe_table` | `npx -y @modelcontextprotocol/server-postgres` + `DATABASE_URL` |
